@@ -1,0 +1,25 @@
+<div class="text-center container-fluid" >
+
+	<div class="page-header "><h1 class="text-center">LET'S PLAY</h1>
+	</div>
+	<h3>Total score <span class="label label-default" ng-init="prize=0" >{{prize}}</span></h3>
+	<div class="row">
+		<div class="col-md-12">
+
+			<cirsacanvas status="playstatus" gamestatus="gamestatus" prize="prize"></cirsacanvas>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+<div >
+
+	<div ng-show="playstatus==1 && gamestatus==2" class="alert alert-success"  role="alert">Great! you won!!!</div>
+	<div ng-show="playstatus==2" class="alert alert-info" role="alert">Playing!!</div>
+	<div ng-show="playstatus==1 && gamestatus==1" class="alert alert-danger" role="alert">Oh snap, you have lost</div>
+
+	<button ng-click="play()" type="button" style="border-radius: 80px" class="btn btn-primary btn-lg">
+		<span class="glyphicon glyphicon-star" aria-hidden="true"></span> Wish you luck!!
+	</button>
+</div>
+
+</div>
