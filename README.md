@@ -7,7 +7,6 @@ App Sprites Demo using
 - easelJS from createJS 
 - Canvas
 - Bootstrap
-==============
 
 Initial version demo upon request
 
