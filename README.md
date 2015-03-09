@@ -1,6 +1,12 @@
 # angularcreatejs
 
-App Sprites Demo using angularJS, createJS and Canvas
+App Sprites Demo using 
+- angularJS
+- angular ui router 
+- angular mocks 
+- easelJS from createJS 
+- Canvas
+- Bootstrap
 ==============
 
 Initial version demo upon request
